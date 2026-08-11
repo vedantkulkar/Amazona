@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Zip files & backups
+*.zip
+node-react-ecommerce.zip
+
+# Production build outputs
+dist/
+build/
+**/build/
+target/
+**/target/
+
+# Environment & local secrets
+.env
+.env.local
+.env.*.local
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

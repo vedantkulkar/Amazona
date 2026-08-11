@@ -1,0 +1,11 @@
+{
+  "name": "e-commerce-root",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cd node-react-ecommerce/spring-backend && mvnw.cmd spring-boot:run",
+    "start:spring": "cd node-react-ecommerce/spring-backend && mvnw.cmd spring-boot:run",
+    "start:frontend": "cd node-react-ecommerce/frontend && npm start",
+    "frontend": "cd node-react-ecommerce/frontend && npm start",
+    "start:node": "cd node-react-ecommerce && npm run start:node"
+  }
+}
