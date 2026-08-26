@@ -24,3 +24,7 @@ target/
 Thumbs.db
 .idea/
 .vscode/
+
+# Other Projects
+techcare-patient-dashboard/
+techcare-patient-dashboard.zip
