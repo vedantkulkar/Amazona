@@ -95,7 +95,7 @@ When the Spring Boot backend is running, explore interactive Swagger docs at:
 
 ### Prerequisites
 - **JDK 17+**
-- **Node.js 16+**
+- **Node.js 16+ & npm** *(Required solely for running/building the React frontend)*
 - **MongoDB** *(Optional — in-memory fallback ensures seamless execution even without MongoDB)*
 
 ### 1. Launch Spring Boot Backend (Port 5000)

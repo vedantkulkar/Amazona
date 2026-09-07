@@ -1,11 +1,19 @@
 {
-  "name": "e-commerce-root",
+  "name": "amazona-ecommerce",
   "version": "1.0.0",
+  "description": "Enterprise Java Full Stack E-Commerce Platform built with Spring Boot 3, Java 17, React, and MongoDB",
   "scripts": {
-    "start": "cd node-react-ecommerce/spring-backend && mvnw.cmd spring-boot:run",
-    "start:spring": "cd node-react-ecommerce/spring-backend && mvnw.cmd spring-boot:run",
-    "start:frontend": "cd node-react-ecommerce/frontend && npm start",
-    "frontend": "cd node-react-ecommerce/frontend && npm start",
-    "start:node": "cd node-react-ecommerce && npm run start:node"
-  }
+    "start": "cd spring-react-ecommerce/spring-backend && mvnw.cmd spring-boot:run",
+    "start:backend": "cd spring-react-ecommerce/spring-backend && mvnw.cmd spring-boot:run",
+    "start:frontend": "cd spring-react-ecommerce/frontend && npm start",
+    "test:backend": "cd spring-react-ecommerce/spring-backend && mvnw.cmd test",
+    "build:backend": "cd spring-react-ecommerce/spring-backend && mvnw.cmd clean package -DskipTests",
+    "build:frontend": "cd spring-react-ecommerce/frontend && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedantkulkar/Amazona.git"
+  },
+  "author": "vedantkulkar",
+  "license": "ISC"
 }
